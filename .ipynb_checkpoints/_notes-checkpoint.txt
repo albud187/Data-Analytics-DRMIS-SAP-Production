@@ -1,0 +1,28 @@
+DRMIS Data Analytics
+
+Group 1:
+- vehicles
+- inspections
+
+Group 2:
+- vehicles
+- non inspections
+
+Group 3: 
+- repairs after inspection
+- vehicles
+
+Group 4: 
+- non vehicles
+
+
+Questions:
+
+average work order duration by vehicle
+average work order duration by keyword
+number of work orders by vehicle
+man hours of work per vehicle
+
+
+- which vehicles  
+- when do vehicles become most "problematic"

@@ -1,0 +1,43 @@
+DRMIS Data Analytics
+
+Group 1:
+- vehicles
+- inspections
+
+Group 2:
+- vehicles
+- non inspections
+
+Group 3: 
+- repairs after inspection
+- vehicles
+
+Group 4: 
+- non vehicles
+
+
+Questions:
+
+#average work order duration by vehicle
+?average work order duration by keyword
+#number of work orders by vehicle
+#man hours of work per vehicle
+
+
+- which vehicles take up most time
+
+EV0B40 - most hours worked, most work orders per vehicle. I think this is the refuelers
+
+time per work center
+days WIP per work center
+
+time per maint activity
+days wip per maint activity
+
+L01 = corrective maintenance / repair
+L27 = inspection
+nil = assorted corrective maintenance
+L28 = estimate / preventantive maint / corrosion control
+L03 = RRR
+L17 = recall
+L19 and L02 = EMO related
