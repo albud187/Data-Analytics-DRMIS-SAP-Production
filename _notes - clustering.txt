@@ -1,0 +1,51 @@
+DRMIS Data Analytics
+
+Group 1:
+- vehicles
+- inspections
+
+Group 2:
+- vehicles
+- non inspections
+
+Group 3: 
+- repairs after inspection
+- vehicles
+
+Group 4: 
+- non vehicles
+
+
+for vehicles of interest:
+- find out which ones have most days WIP  
+word embedding + clustering on work order description, then expand to all vehicles RCAF / CF wide
+
+clustering based on word similarity type models:
+comparison words:
+- vocabulary words extracted from features
+
+- or -
+
+- words from work order description
+
+which vehicles have most amoutn of time - CFR
+find CFRs with most open work orders
+find CFRs with work order open more than past date
+
+
+create tools and functionalization:
+- find out which vehicles (type) cause the most work orders
+- find out which vehicles (CFR) cause most work orders
+- find out which vehicles cause the most work order types
+- which work centers have the most work orders
+- which work centers have the most hours of work
+
+
+return data frames of vehicles
+
+outputs
+list which vehicles have active work orders against them and how many, 
+list which vehicles have active work orders against them, still open since x days ago
+
+- dataframe cols = CFR, number work orders active, planned hours, work center, vehicle type,
+
